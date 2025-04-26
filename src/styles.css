@@ -1,0 +1,322 @@
+/* =========================
+   Global Styles
+========================= */
+
+body {
+    background-color: #f7f9fb;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+/* =========================
+   ObjStateEx Styles
+========================= */
+
+.car-container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    border: 1px solid #e4eaf0;
+}
+
+.car-brand {
+    font-size: 22px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.car-description {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.car-color {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.car-color.red {
+    color: #e53935;
+}
+
+.car-color.blue {
+    color: #1e88e5;
+}
+
+.car-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.btn-change-color {
+    padding: 12px 30px;
+    font-size: 15px;
+    background-color: #d0e8ff;
+    color: #1565c0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-change-color:hover {
+    background-color: #b3daff;
+    transform: translateY(-2px);
+}
+
+.btn-change-color:active {
+    transform: translateY(0);
+}
+
+/* =========================
+   CounterUsingHooksUseState Styles
+========================= */
+
+.counter-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+    padding: 40px 25px;
+    border: 1px solid #e0e6ed;
+}
+
+.counter-title {
+    font-size: 24px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.counter-display {
+    font-size: 56px;
+    font-weight: bold;
+    color: #6c63ff;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.counter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.increment-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #bbdefb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s, border 0.3s;
+}
+
+.increment-ten-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+    background-color: #fff3e0;
+    color: #ef6c00;
+    border: 1px solid #ffe0b2;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s, border 0.3s;
+}
+
+.increment-btn:hover,
+.increment-ten-btn:hover {
+    transform: translateY(-2px);
+    background-color: #f0f0f0;
+    border-color: #dcdcdc;
+}
+
+.increment-btn:active,
+.increment-ten-btn:active {
+    transform: translateY(0);
+}
+
+/* =========================
+   UsingUseEffect & LogInLogOut Styles
+========================= */
+
+.effect-container,
+.login-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border: 1px solid #e3eaf0;
+}
+
+.card {
+    background-color: #f9fcff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #dde6ed;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.value {
+    color: #1976d2;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color: #e0f2ff;
+    color: #1565c0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #bbdefb;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.divider {
+    height: 2px;
+    background: #e0e0e0;
+    margin: 30px 0;
+    border-radius: 2px;
+}
+
+.status-card {
+    margin-bottom: 30px;
+}
+
+.status-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.logged-in {
+    color: #43a047;
+}
+
+.logged-out {
+    color: #e53935;
+}
+
+.status-info {
+    font-size: 16px;
+    color: #555555;
+}
+
+.btn-toggle {
+    padding: 12px 30px;
+    font-size: 15px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-toggle:hover {
+    background-color: #b2ebf2;
+    transform: translateY(-2px);
+}
+
+.btn-toggle:active {
+    transform: translateY(0);
+}
+
+/* =========================
+   Context API Styles
+========================= */
+
+.component-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.context-card {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid #e0e6ed;
+}
+
+.context-title {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.context-subtitle {
+    font-size: 18px;
+    color: #555555;
+}
+
+.context-value {
+    font-weight: bold;
+}
+
+/* =========================
+   Utility Colors
+========================= */
+
+.red {
+    color: #e53935;
+}
+
+.blue {
+    color: #1e88e5;
+}
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 600px) {
+    .counter-buttons {
+        flex-direction: column;
+    }
+
+    .car-container,
+    .counter-container,
+    .effect-container,
+    .login-container,
+    .context-card {
+        padding: 20px;
+        margin: 30px auto;
+    }
+}
